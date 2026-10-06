@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "player-time-on-server",
+	"version": "${version}",
+	"name": "Player Time on Server",
+	"description": "Server-side admin tools for viewing every player's stats — play time, blocks mined, tools broken, mob kills, distance, deaths, and full leaderboards. Use /pstats list, /pstats player <name>, /pstats top <category>, /pstats export.",
+	"authors": [
+		"VWS Digital"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/player-time-on-server/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.vwsdigital.minecraftmods.playertimeonserver.PlayerTimeOnServer"
+		],
+		"client": [
+			"com.vwsdigital.minecraftmods.playertimeonserver.client.PlayerTimeOnServerClient"
+		]
+	},
+	"mixins": [
+		"player-time-on-server.mixins.json",
+		{
+			"config": "player-time-on-server.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.1",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
