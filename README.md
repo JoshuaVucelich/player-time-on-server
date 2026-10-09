@@ -29,15 +29,21 @@ Tools broken on the player page is the total of the items-broken stat.
 
 ## Requirements
 
-This branch is for Minecraft 26.3 (mod version 1.0.1).
+This branch is for Minecraft 26.3 on Fabric (mod version `1.0.2+26.3-fabric`).
 
 - Java 25 or newer
 - Fabric Loader 0.19.5 or newer
-- Fabric API (this branch builds with 0.161.0+26.3)
+- Fabric API 0.162.0+26.3
+- Loom 1.18-SNAPSHOT and Gradle 9.7.1
 
 Mod id: `player-time-on-server`
 
-The Minecraft 26.1.2 build is on the `mc/26.1.2` branch.
+Other version branches:
+
+- Fabric 26.2: `mc/26.2` (`1.0.2+26.2-fabric`)
+- Fabric 26.1.2: `mc/26.1.2` (`1.0.1+26.1.2-fabric`)
+- Fabric 1.21.11: `mc/1.21.11` (`1.0.2+1.21.11-fabric`)
+- NeoForge 26.2: `neoforge/26.2` (`1.0.2+26.2-neoforge`). NeoForge 26.3 is beta-only, so the port tracks the newest stable NeoForge release.
 
 ## Build
 
