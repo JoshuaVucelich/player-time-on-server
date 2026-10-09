@@ -40,7 +40,7 @@ Mod id: `player-time-on-server`
 
 Other version branches:
 
-- Fabric 26.2: `mc/26.2` (`1.0.2+26.2-fabric`)
+- Fabric 26.3: `mc/26.3` (`1.0.2+26.3-fabric`)
 - Fabric 26.1.2: `mc/26.1.2` (`1.0.1+26.1.2-fabric`)
 - Fabric 1.21.11: `mc/1.21.11` (`1.0.2+1.21.11-fabric`)
 - NeoForge 26.2: `neoforge/26.2` (`1.0.2+26.2-neoforge`). NeoForge 26.3 is beta-only, so the port tracks the newest stable NeoForge release.
