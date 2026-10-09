@@ -1,0 +1,28 @@
+license="CC0-1.0"
+
+[[mods]]
+modId="player-time-on-server"
+version="${mod_version}"
+displayName="Player Time on Server"
+authors="VWS Digital"
+logoFile="assets/player-time-on-server/icon.png"
+description='''
+Server-side admin tools for viewing every player's stats — play time, blocks mined, tools broken, mob kills, distance, deaths, and full leaderboards. Use /pstats list, /pstats player <name>, /pstats top <category>, /pstats export.
+'''
+
+[[mixins]]
+config="player-time-on-server.mixins.json"
+
+[[dependencies.player-time-on-server]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.player-time-on-server]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"

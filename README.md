@@ -1,6 +1,6 @@
 # Player Time on Server
 
-A Fabric mod for checking player stats on a Minecraft server. It reads the stats Minecraft already stores, so it covers people who are online and people who have logged off.
+A NeoForge mod for checking player stats on a Minecraft server. It reads the stats Minecraft already stores, so it covers people who are online and people who have logged off.
 
 VWS Digital. The license is CC0.
 
@@ -29,21 +29,22 @@ Tools broken on the player page is the total of the items-broken stat.
 
 ## Requirements
 
-This branch is for Minecraft 26.2 on Fabric (mod version `1.0.2+26.2-fabric`).
+This branch is for Minecraft 26.2 on NeoForge (mod version `1.0.2+26.2-neoforge`).
+
+NeoForge has not published a stable build for Minecraft 26.3 (the newest 26.3 builds are still beta), so this port tracks 26.2, the newest Minecraft version with a stable NeoForge release.
 
 - Java 25 or newer
-- Fabric Loader 0.19.5 or newer
-- Fabric API 0.161.0+26.2
-- Loom 1.18-SNAPSHOT and Gradle 9.7.1
+- NeoForge 26.2.0.89 or newer
+- ModDevGradle 2.0.148
 
 Mod id: `player-time-on-server`
 
 Other version branches:
 
+- Fabric 26.3: `mc/26.3` (`1.0.2+26.3-fabric`)
 - Fabric 26.2: `mc/26.2` (`1.0.2+26.2-fabric`)
 - Fabric 26.1.2: `mc/26.1.2` (`1.0.1+26.1.2-fabric`)
 - Fabric 1.21.11: `mc/1.21.11` (`1.0.2+1.21.11-fabric`)
-- NeoForge 26.2: `neoforge/26.2` (`1.0.2+26.2-neoforge`). NeoForge 26.3 is beta-only, so the port tracks the newest stable NeoForge release.
 
 ## Build
 
