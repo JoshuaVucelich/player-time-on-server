@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 
 @Mod(PlayerTimeOnServer.MOD_ID)
 public class PlayerTimeOnServer {
-	public static final String MOD_ID = "player-time-on-server";
+	public static final String MOD_ID = "player_time_on_server";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	public PlayerTimeOnServer() {

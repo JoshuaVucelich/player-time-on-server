@@ -37,7 +37,7 @@ neoForge {
 	}
 
 	mods {
-		"player-time-on-server" {
+		"player_time_on_server" {
 			sourceSet(sourceSets.main)
 		}
 	}

@@ -37,7 +37,7 @@ NeoForge has not published a stable build for Minecraft 26.3 (the newest 26.3 bu
 - NeoForge 26.2.0.89 or newer
 - ModDevGradle 2.0.148
 
-Mod id: `player-time-on-server`
+NeoForge mod id: `player_time_on_server`. NeoForge rejects hyphens in mod ids, so this port cannot keep the Fabric id `player-time-on-server`. The jar name and the `/pstats` commands are unchanged.
 
 Other version branches:
 
