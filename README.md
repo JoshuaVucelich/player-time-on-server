@@ -29,11 +29,11 @@ Tools broken on the player page is the total of the items-broken stat.
 
 ## Requirements
 
-This branch is for Minecraft 26.3 on Fabric (mod version `1.0.2+26.3-fabric`).
+This branch is for Minecraft 26.2 on Fabric (mod version `1.0.2+26.2-fabric`).
 
 - Java 25 or newer
 - Fabric Loader 0.19.5 or newer
-- Fabric API 0.162.0+26.3
+- Fabric API 0.161.0+26.2
 - Loom 1.18-SNAPSHOT and Gradle 9.7.1
 
 Mod id: `player-time-on-server`
